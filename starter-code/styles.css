@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Source Sans Pro";
+}
+
+.clearfloat {
+  clear: both;
+}
+
+nav {
+background-color: #C12127;
+color: rgba(225, 225, 225, 0.8);
+padding: 5px 0;
+font-family: "Source Sans Pro";
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 25px 0 0;
+}
+
+nav li:last-child {
+  margin: 0 15px 0 0;
+}
+
+nav a:link, a:visited {
+  color: rgba(225, 225, 225, 0.8);
+  text-decoration: none;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+.top-left {
+  float: left;
+  margin-left: 25px;
+}
+
+header {
+  background-color: rgb(32, 101,136);
+  color: white;
+  font-size: 16px;
+  font-family: "Source Sans Pro";
+  height: 500px;
+  background: url(https://static.npmjs.com/images/hero-cityscape.svg) no-repeat;
+  background-size: cover;
+}
+
+header a {
+  color: rgba(225, 225, 225, 0.8);
+}
+
+.logo {
+  height: 30px;
+  vertical-align: middle;
+  margin-left: 8px;
+  margin-right: 5px;
+}
+
+header input {
+  display: inline-box;
+  height: 30px;
+  background-color: rgb(31, 82, 111);
+  border: 1px grey solid;
+  width: 77%;
+}
+
+header input::placeholder {
+  padding-left: 15px;
+  color: grey;
+  
+}
+
+.magnifier {
+  background-color: rgb(31, 82, 111);
+  display: inline-block;
+  height: 30px;
+  border: 1px grey solid;
+  vertical-align: middle;
+  width: 10px;
+  font-size: 16px;
+  margin-left: -10px;
+  margin-top: -2px;
+}
+
+.login-text {
+  margin-left: 20px;
+  letter-spacing: 1px;
+}
+
+header a {
+  text-decoration: none;
+  font-family: "Source Sans Pro";
+}
+
+.search-logo {
+  padding: 10px 0;
+}
+
+.bear-logo {
+  height: 30px;
+  vertical-align: middle;
+}
+
+.search-content {
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+
+.search-content-text {
+  width: 30%;
+  display: block;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.button {
+  padding: 5px 20px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+.button-orange {
+  background-color: orange;
+  margin-top: 50px;
+}
+
+.search-content-text a {
+  color: white;
+}
+
+.search-content h1 {
+  margin-bottom: 15px;
+}
+/*-----Bears-----*/
+
+.sign-up {
+  background: rgb(39, 53, 71);
+  color: white;
+ 
+}
+
+.sign-up a {
+  color: white;
+}
+
+.sign-up h2 {
+  font-size: 32px;
+}
+
+.sign-up-wrapper {
+  width: 70%;
+  margin: auto;
+  padding: 100px 0;
+  position: relative;
+}
+
+.first-column {
+  width: 48%;
+  display: inline-block;
+}
+
+.second-column {
+  width: 48%;
+  display: inline-block;
+  margin-left: 60px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.second-column ul {
+  margin-left: 38px;
+  padding: 15px 0;
+}
+
+.second-column li {
+  margin: 20px 0;
+}
+
+.button-red {
+  background-color: rgb(203, 56, 55);
+}
+
+/*------what is------*/
+
+.what-is {
+  background-image: url(https://static.npmjs.com/images/npm-is-BOXES.svg);
+  height: 500px;
+  color: white;
+}
+
+.what-is-wrapper {
+  width: 70%;
+  margin: auto;
+  position: relative;
+  height: 100%;
+}
+
+.what-is a {
+  color: white;
+}
+
+.what-is-text {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+}
+
+.what-is h2 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.button-black {
+  background-color: rgba(49, 44, 44, 0.842);
+  margin-top: 30px;
+}
+
+.what-is a {
+  text-decoration: none;
+}
+
+/*------build block------*/
+
+.build-blocks{
+  height: 500px;
+}
+
+.build-blocks-text {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.build-blocks-text p {
+  font-size: 13px;
+  color: rgb(135, 145, 156);
+}
+
+.build-blocks-blocks {
+  width: 70%;
+  margin: 20px auto 75px auto;
+  text-align: center;
+}
+
+.block{
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  height: 230px;
+}
+
+.block p {
+  padding: 10px 30px;
+}
+
+.block span {
+  color: rgb(208, 74, 73);
+}
